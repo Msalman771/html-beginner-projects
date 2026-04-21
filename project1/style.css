@@ -8,6 +8,12 @@
     width: 60px;
     border-radius: 5px;
     margin-right: 80%;    
+    animation-name: slideright;
+    animation-duration: 3s;
+}
+@keyframes slideright {
+    to{transformX:(110%)}
+    
 }
 h1{
     text-align: center;
@@ -81,4 +87,15 @@ footer{
     height: 50px;
     justify-content: center;
     display: flex;
+}
+@media  screen and (max-width:1000px){
+    body{
+        background-color: hsl(19, 85%, 45%);
+    }
+    img{
+        width: 100%;
+    }
+    nav{
+        background-color: hsl(19, 89%, 27%);
+    }
 }
