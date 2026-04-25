@@ -10,11 +10,9 @@ body{
     color: white;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 600px;
-    padding: 15px 60px;
-    
+    height: 60px;   
 }
 .logo{
     font-size: 20px;
@@ -34,17 +32,24 @@ body{
     margin-bottom: 20px;
 }
 
-
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     gap: 20px;
+    flex-wrap: wrap;
+
 }
 a,li{
     color: white;
     text-decoration: none;
+}
+a>button{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    height: 35px;
 }
 .container{
     display: flex;
@@ -52,23 +57,37 @@ a,li{
     gap: 100px;
     background-color: #f1f1f1;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card{
     background-color: #dbdbdb;
     padding: 20px;
     border-radius: 8px;
-    height: 150px;
+    height: 120px;
 }
 .card:hover{
      background-color: #f2f2f2;
-    box-shadow: 5px,5px,20px,0.3,hsl(0, 45%, 48%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
     border: 2px solid hsl(0, 28%, 40%);
 
 }
-h2{
-    margin-top: px;
-}
+
 .fa-solid{
     float: left;
     margin-right: 15px;
+}
+@media  (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .image{
+        display: none;
+    }
 }
