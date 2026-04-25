@@ -1,0 +1,60 @@
+
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            background-image: url(../picture/ritae-spaghetti-1392266_1920.jpg);
+            background-repeat: no-repeat;
+            
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 70%;
+            margin:  auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            color: black;
+            font-weight: bolder;
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+       
+
+        th {
+            background-color: lch(71% 3.03 19.5);
+            color:black;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .price {
+            text-align: right;
+            font-weight: bold;
+        }
+        .button{
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: rgb(82, 82, 162);
+            color: #f8f8f8;
+            text-decoration: none;
+        }
+        .button:hover{
+            background-color: lightblue;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
