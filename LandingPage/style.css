@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: hsl(0, 40%, 60%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+strong{
+    text-decoration: underline;
+    font-size: x-large;
+    color: yellow;
+
+}
+.para{
+    border-radius: 4px;
+    width: 350px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: black;
+}
+.hero{
+    background-image: url(nikepic.png);
+    background-size: cover;
+    height: 100vh;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 30PX;
+    gap: 20px;
+}
+.herotext{
+    font-size: xx-large;
+}
+button{
+    background-color: rgb(66, 42, 173);
+    height: 40PX;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+}
+.cards{
+    background-color: black;
+    margin-top: 20px;
+    color: hsl(0, 31%, 42%);
+    display: flex;
+    justify-content: center;
+
+}
+.cards:hover{
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    align-items: center;
+    padding: 20px;
+}
+.card:hover{
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+img{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+button{
+    height: 50px;
+    background-color: hsl(0, 31%, 42%);
+    border-radius: 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
