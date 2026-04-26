@@ -97,3 +97,10 @@ button:hover{
     background-color: white;
     color: black;
 }
+
+.foot{
+    margin-top: 20px;
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+}
